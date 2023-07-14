@@ -282,8 +282,8 @@ def price_predictor_rus(startdate, enddate, specificdate):
 #web app
 def show_predict_page():
     st.title("Bitcoin price prediction")
-    # file_ = open("E:\PREDICT THE BITCOIN\Bitcoin.gif","rb")  
-    file_ = open("/opt/render/project/src/PREDICT THE BITCOIN/Bitcoin.gif", "rb")
+    file_ = open("Bitcoin.gif","rb")  
+    # file_ = open("/opt/render/project/src/PREDICT THE BITCOIN/Bitcoin.gif", "rb")
     contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file_.close()
